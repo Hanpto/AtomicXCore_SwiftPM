@@ -9,13 +9,13 @@ let package = Package(
                  targets: ["AtomicXCoreBinary", "AtomicXCoreDeps"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Hanpto/RTCRoomEngine_SwiftPM.git", from: "4.3.5")
+        .package(url: "https://github.com/Hanpto/RTCRoomEngine_SwiftPM.git", from: "4.3.0")
     ],
     targets: [
         .binaryTarget(
             name: "AtomicXCoreBinary",
-            url: "https://ios-sdk-release-1300962221.cos.ap-guangzhou.myqcloud.com/ios/AtomicXCore/4.3.8/AtomicXCore.xcframework.zip",
-            checksum: "ebb14e967192572c2ddbb70c4f298762bd191636ede0eb2f439c3c1e0a0a1185"
+            url: "https://ios-sdk-release-1300962221.cos.ap-guangzhou.myqcloud.com/ios/AtomicXCore/4.3.0/AtomicXCore.xcframework.zip",
+            checksum: "90edc27bdcde5106e43710bd1a702575b0726c7d89276bc117532f0df87ba9e2"
         ),
         .target(
             name: "AtomicXCoreDeps",
