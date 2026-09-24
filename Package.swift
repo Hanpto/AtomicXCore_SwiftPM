@@ -9,7 +9,7 @@ let package = Package(
                  targets: ["AtomicXCoreBinary", "AtomicXCoreDeps"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Hanpto/RTCRoomEngine_SwiftPM.git", from: "4.3.5")
+        .package(url: "https://github.com/Hanpto/RTCRoomEngine_SwiftPM.git", from: "4.3.0")
     ],
     targets: [
         .binaryTarget(
